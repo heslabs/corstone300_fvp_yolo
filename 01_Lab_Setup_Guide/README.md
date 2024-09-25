@@ -57,13 +57,6 @@ Check if docker can be run without root
 $ docker run hello-world
 ```
 
-
----
-### Install Docker on Ubuntu Linux
-```
-$ sudo snap install docker 
-```
-
 ---
 ### Install Docker on Ubuntu Linux
 ```
