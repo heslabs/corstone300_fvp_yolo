@@ -32,10 +32,10 @@ The pre-built Docker image includes the following required version of developmen
 * Arm Corstone-300 FVP: 
   * FVP_Corstone_SSE-300_Ethos-U55_11.14_24.tgz [Download]
 * Vela compiler for Ethos-U NPU
-```
-$ sudo pip install ethos-u-vela
-Successfully installed: ethos-u-vela-3.6.0, flatbuffers-2.0.7, numpy-2.0.1
-```
+ ```
+  $ sudo pip install ethos-u-vela
+  Successfully installed: ethos-u-vela-3.6.0, flatbuffers-2.0.7, numpy-2.0.1
+ ```
 
 
 
