@@ -12,3 +12,5 @@
   * https://review.mlplatform.org/plugins/gitiles/ml/ethos-u/ml-embedded-evaluation-kit/
 * NYCU: Deploy Models on Fixed Virtual Platform (FVP)
   * https://docs.google.com/presentation/d/11FhRh35LyO7bk1A4upI57aKm2CLcO7nWPMnaw_SPmDQ/mobilepresent?slide=id.g2834fc38adc_0_488
+* Github: ML Helium by christophe0606  
+ * https://github.com/christophe0606/MLHelium
