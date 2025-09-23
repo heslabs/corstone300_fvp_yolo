@@ -5,7 +5,7 @@ Download the lab files from labs sftp site as below. The lab repository includes
 
 The lab repository is based on the following Github projects from Arm and ecosystem partner 
 * Github Running YOLOv8 on Himax WE2 [[Github]](https://github.com/anitawuitri/YOLOv8_on_WE2.git)  
-* Deploy examples on FVP simulation environment [Github](https://github.com/HimaxWiseEyePlus/ML_FVP_EVALUATION?tab=readme-ov-file#how-to-use-himax-config-file-to-generate-vela-model) 
+* Deploy examples on FVP simulation environment [[Github]](https://github.com/HimaxWiseEyePlus/ML_FVP_EVALUATION?tab=readme-ov-file#how-to-use-himax-config-file-to-generate-vela-model)
 * Arm ML Embedded Evaluation Kit [[GitHub]](https://review.mlplatform.org/plugins/gitiles/ml/ethos-u/ml-embedded-evaluation-kit/)
 
 
