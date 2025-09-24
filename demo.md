@@ -1,8 +1,9 @@
 # Demo
 
-### 1. Remote login to x86 LLinux PC
+### 1. Remote access to x86 LLinux PC
 ```
-sshpass -p demo123@ ssh demo@@1.169.238.61 -X
+ssh demo@@1.169.238.61 -X
+Password: ***
 ```
 
 ### 2. Go to the project and check Makefile for available commands
