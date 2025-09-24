@@ -26,5 +26,5 @@ make docker-env
 
 ### 5. Launch FVP and run the applicaton codes (*.axf)
 ```
-(docker) make yolo
+ubuntu@cx5c:~/YOLOv8_on_WE2/ml-embedded-evaluation-kit/runtime$ make yolo
 ```
