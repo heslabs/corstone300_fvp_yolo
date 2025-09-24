@@ -6,7 +6,7 @@ ssh demo@1.169.238.61 -X
 Password: ******
 ```
 
-### 2. Go to the project and check Makefile for available commands
+### 2. Go to the project and check "Makefile" for available scripts
 ```
 cd ~/labs/cs300fvp && make
 ```
