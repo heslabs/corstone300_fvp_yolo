@@ -3,7 +3,7 @@
 ### 1. Remote access to x86 LLinux PC
 ```
 ssh demo@1.169.238.61 -X
-Password: ***
+Password: ******
 ```
 
 ### 2. Go to the project and check Makefile for available commands
