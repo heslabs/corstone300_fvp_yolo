@@ -26,6 +26,5 @@ make docker-env
 
 ### 5. Launch FVP and run the applicaton codes (*.axf)
 ```
-cd ~/labs/cs300fvp
-make yolo
+(docker) make yolo
 ```
