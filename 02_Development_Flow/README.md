@@ -16,14 +16,14 @@ Workflow Summary
 ### Step 1: Build Docker Image
 
 ```
-$ cd  fvp300we2/YOLOv8_on_WE2/tools
+$ cd cs300fvp/YOLOv8_on_WE2/tools
 $ docker build -t $(DOCKER_IMAGE) .
 ```
 
 Alternatively, using the Makefile:
  
 ```
-$ cd fvp300we2/runtime
+$ cd cs300fvp/runtime
 $ sudo chmod 666 /var/run/docker.sock  # Optional
 $ make docker-build
 ```
@@ -38,7 +38,7 @@ $ docker load --input $(DOCKER_IMAGE_TARFILE)
 
 Using the Makefile:
 ```
-$ cd fvp300we2/runtime
+$ cd cs300fvp/runtime
 $ make docker-load
 ```
 
