@@ -47,7 +47,7 @@ $ make yolo
 ```
 
 This command:
-• Starts the WE2 FVP model.
-• Executes the YOLOv8 application (*.axf) on the FVP.
+* Starts the WE2 FVP model.
+* Executes the YOLOv8 application (*.axf) on the FVP.
 
 
