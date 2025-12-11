@@ -19,7 +19,7 @@ $ git clone "https://review.mlplatform.org/ml/ethos-u/ml-embedded-evaluation-kit
 ```
 
 ---
-### Download Docker Image
+### Build Docker Image
 
 To run ML applications on the Cortex-M and Ethos-U NPU, the following development tools are required to be installed. The recommended flow is to build Docker environment using reference Dockerfile in Arm ML Embedded Evaluation Kit (/ml-embedded-evaluation-kit/Dockerfile)
 
