@@ -4,7 +4,7 @@
 
 ### 1. Remote access to x86 LLinux PC
 ```
-ssh demo@1.169.238.61 -X
+ssh fvp@122.116.228.96 -X
 Password: ******
 ```
 
