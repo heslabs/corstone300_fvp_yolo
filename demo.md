@@ -1,32 +1,53 @@
-# Demo
+# Remote Access & Running YOLOv8 on WE2 FVP — Quickstart Guide
 
 * Demo video: https://youtu.be/EGHxdU756Zo
 
 ### 1. Remote access to x86 LLinux PC
 ```
-ssh fvp@122.116.228.96 -X
+$ ssh fvp@122.116.228.96 -X
 Password: ******
 ```
 
-### 2. Go to the project and check "Makefile" for available scripts
+-X enables X11 forwarding if GUI output is needed.
+
+### 2. Navigate to Project & Check Makefile
 ```
-cd ~/labs/cs300fvp && make
+$ cd ~/labs/cs300fvp && make
 ```
 
-### 3. Load the prebuilt docker images file (heswiki/fvp300we2)
+* Running make without arguments typically lists available build targets.
+* Inspect the Makefile if needed:
+
 ```
-cd ~/labs/cs300fvp
-docker load --input ../cs300fvp-docker-images/cs300fvp-we2.tar
-docker images
+$ less Makefile
 ```
 
-### 4. Launch Docker environment
+### 3. Load Prebuilt Docker Image (heswiki/fvp300we2)
 ```
-cd ~/labs/cs300fvp
-make docker-env
+$ cd ~/labs/cs300fvp
+$ docker load --input ../cs300fvp-docker-images/cs300fvp-we2.tar
+$ docker images
 ```
 
-### 5. Launch FVP and run the applicaton codes (*.axf)
+Confirms that the cs300fvp-we2 image is successfully imported.
+
+### 4. Start the Docker Environment
 ```
-ubuntu@cx5c:~/YOLOv8_on_WE2/ml-embedded-evaluation-kit/runtime$ make yolo
+$ cd ~/labs/cs300fvp
+$ make docker-env
 ```
+
+Launches the prepared container with all WE2/FVP tools installed.
+
+### 5. Run YOLOv8 on the WE2 FVP
+
+```
+$ cd ~/YOLOv8_on_WE2/ml-embedded-evaluation-kit/runtime
+$ make yolo
+```
+
+This command:
+• Starts the WE2 FVP model.
+• Executes the YOLOv8 application (*.axf) on the FVP.
+
+
